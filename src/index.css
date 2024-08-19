@@ -1,0 +1,24 @@
+/* ? Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+  background-color: #f6f6f6;
+  font-family: "Open Sans", sans-serif;
+}
+
+
+img {
+  pointer-events: none;
+}
+
+button {
+  transition: 0.3s;
+
+  &:active {
+    transform: scale(0.95);
+  }
+}
